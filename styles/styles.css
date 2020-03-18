@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+}
+header{
+    background-image: url(https://www.plex.tv/wp-content/uploads/2019/01/hero-homepage-2019-1800x1185.jpg);
+    width:100vw;
+    height:1000px;;
+    /* align-items: center; */
+}
+.navigation{
+    /* display:flex;
+    flex-flow:row nowrap; */
+    display: inline-block;
+}
+.navigation img{
+    height:100px;
+    width:100px;
+    margin:60px;
+}
+nav ul {
+  display: flex;
+  margin-left:300px;
+  margin-top: -150px;
+  
+}
+nav ul li{
+    float:right;
+    list-style-type: none;
+    margin-right: 150px;
+   
+}
+nav ul li a{
+    display:inline-block;
+    font-size: 20px;
+  text-decoration: none;
+  color:darkslategrey;
+  padding: 10px;
+  
+ 
+
+}
+.navigation ul li a:hover{
+    color:goldenrod;
+}
+.second{
+    
+ margin-top:200px;
+ max-width: 1000px;
+ /* margin: 0 auto; */
+ z-index: 2;
+ /* position: relative; */
+ text-align: center;
+ color: #fff;
+ width:100%;
+ margin-bottom: 80px;
+    
+}
+.second h1{
+    font-size:50px;
+    margin-left: 600px;
+}
+.second p{
+    font-size:20px;
+    margin-left: 300px;
+    width:100%;
+}
+.header-box {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+.content {
+    padding: 40px 30px;
+    background: rgba(40,42,45,.5);
+    transition: all .2s ease-in-out;
+    margin: 0 2px;
+    width: 25%;
+    position: relative;
+    color: #fff;
+}
+.content h2 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+.content p {
+    font-size: 1.1em;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.content h3 a {
+    background-color: #E5A00D;
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top:60px;
+    
+}
+.content h3 a:hover {
+    background-color: goldenrod;
+}
+.content i {
+    color: #E5A00D;
+}
+.content:hover {
+    background: #fff;
+    
+    color: #333;
+}
